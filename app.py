@@ -78,6 +78,6 @@ async def predict_items(file: UploadFile = File(...)):
         return response
 
     except (BaseException, Exception):
-        raise HTTPException(status_code=500, detail='Something went wrong')
+        raise HTTPException(status_code=500, detail='Internal server error')
     finally:
         file.file.close()
