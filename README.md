@@ -37,3 +37,15 @@ $R^2 ≈ 0.68-0.71$ показывает качество выше средне�
 - **app.py** - сервис на **FastAPI**
 
 ## Результаты работы сервиса
+
+![Alt text](images/service1.png)
+
+![Alt text](images/service2.png)
+
+![Alt text](images/service3.png)
+
+![Alt text](images/service4.png)
+
+![Alt text](images/service5.png)
+
+![Alt text](images/service6.png)
