@@ -42,6 +42,7 @@ async def lifespan(app: FastAPI):
 
     yield
     ml_models.clear()
+
 app = FastAPI(lifespan=lifespan, title="Used Cars Prices Prediction API")
 
 
